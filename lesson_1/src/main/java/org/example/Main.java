@@ -52,7 +52,8 @@ public class Main {
         System.out.println("VIN: " + wCar.vin);
         System.out.println("Owner: " + wCar.owner.firstName);
 
-
+        System.out.println(wCar.startEngine());
+        System.out.println(wCar.stopEngine());
     }
 
 }

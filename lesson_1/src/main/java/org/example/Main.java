@@ -51,7 +51,8 @@ public class Main {
         System.out.println("Car name: " + wCar.carName);
         System.out.println("VIN: " + wCar.vin);
         System.out.println("Owner: " + wCar.owner.firstName);
-        System.out.println("Permission: " + wCar.startEnginePermission(324234));
+
+
     }
 
 }

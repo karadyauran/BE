@@ -6,12 +6,11 @@ public class Car {
     public String vin;
     public Worker owner;
 
-    public boolean startEnginePermission (int id) {
-        if (id != this.owner.id) {
-            return false;
-        }
+    public String startEngine () {
+        return "Engine start...";
+    }
 
-        return true;
-
+    public String stopEngine () {
+        return "Engine stop...";
     }
 }

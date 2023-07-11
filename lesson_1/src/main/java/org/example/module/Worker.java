@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class Worker {
     // поле
+    public int id;
     public String firstName;
     public String lastName;
     public int age;
@@ -22,4 +23,10 @@ public class Worker {
     public String sayHello () {
         return "Hello, " + this.firstName;
     }
+
+    public boolean returnPermission() {
+        return this.age >= 18;
+    }
+
+
 }

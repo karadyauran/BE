@@ -1,11 +1,21 @@
 package org.example;
 
+import org.example.modules.Accumul;
+import org.example.modules.Arge;
+import org.example.modules.Kata;
+import org.example.modules.StringSplit;
+
 import java.sql.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        // System.out.println(Arge.nbYear(1500, 5, 100, 5000));
+        // System.out.println(Accumul.accum("ZpglnRxqenU"));
+        System.out.println(Arrays.toString(StringSplit.solution("abcdef")));
+
         /*Scanner userData = new Scanner(System.in);
 
         System.out.print("Enter arr size: ");
@@ -25,7 +35,7 @@ public class Main {
             arr[index] = random;
             // System.out.println(arr[index]);
             index++;
-        }*/
+        }
 
 //        1. о строках
 //        2. Логика
@@ -73,7 +83,7 @@ public class Main {
         boolean flag6 = !flag5; // NOT EQUAL
 
 
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Print num: ");
         int x = scanner.nextInt();
         System.out.print("Print num: ");
@@ -85,13 +95,13 @@ public class Main {
             System.out.println("Max = " + x);
         } else {
             System.out.println(y + " equal " + x);
-        }*/
+        }
 
         // циклы
 
-        /*for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(i);
-        }*/
+        }
 
         // arrays
 
@@ -103,5 +113,7 @@ public class Main {
         }
 
         System.out.println(Arrays.toString(array));
+
+        System.out.println(Arrays.toString(Kata.flip('R', new int[]{1,4,5,3,5})));*/
     }
 }

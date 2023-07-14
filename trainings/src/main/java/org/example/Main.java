@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.modules.Accumul;
-import org.example.modules.Arge;
-import org.example.modules.Kata;
-import org.example.modules.StringSplit;
+import org.example.modules.*;
 
 import java.sql.Array;
 import java.util.Arrays;
@@ -14,7 +11,18 @@ public class Main {
 
         // System.out.println(Arge.nbYear(1500, 5, 100, 5000));
         // System.out.println(Accumul.accum("ZpglnRxqenU"));
-        System.out.println(Arrays.toString(StringSplit.solution("abcdef")));
+        // System.out.println(Arrays.toString(StringSplit.solution("abcdef")));
+
+//        JadenCase j = new JadenCase();
+//
+//        System.out.println(j.toJadenCase(null));
+
+        int[] a = new int[10];
+        for (int i = 0; i < a.length; i++) {
+            a[i] = i;
+        }
+
+        System.out.println(Arrays.toString(a));
 
         /*Scanner userData = new Scanner(System.in);
 

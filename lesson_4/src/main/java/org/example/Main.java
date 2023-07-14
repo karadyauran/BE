@@ -10,25 +10,15 @@ public class Main {
         System.out.println("+------------+------------+-------------+------------+");
 
         User user1 = new User("Sasha", 19, 80.2, 'M');
+        user1.makeTable();
 
-        System.out.printf("|%11s |%11s |%12s |%11s |",
-                user1.getName(),
-                user1.getAge(),
-                user1.getWeigh(),
-                user1.getGender()
-        );
-        System.out.println();
-        System.out.println("+------------+------------+-------------+------------+");
+        User user2 = new User("Oleksandr", 20, 85.2, 'M');
+        user2.makeTable();
 
-        User user2 = new User("Oleksanfdffdfddr", 20, 85.2, 'M');
+        User user3 = new User("Oleksandrianno", 20, 85.2, 'M');
+        user3.makeTable();
 
-        System.out.printf("|%11s |%11s |%12s |%11s |",
-                user2.getName(),
-                user2.getAge(),
-                user2.getWeigh(),
-                user2.getGender()
-        );
-        System.out.println();
-        System.out.println("+------------+------------+-------------+------------+");
+        User user4 = new User("glkfhsdjghosfhghflshgkdnkgnldfjklgjdlk", 20, 85.2, 'M');
+        user4.makeTable();
     }
 }

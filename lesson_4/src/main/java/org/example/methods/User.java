@@ -36,4 +36,16 @@ public class User {
     public char getGender() {
         return this.gender;
     }
+
+    public void makeTable(){
+        System.out.printf("|%11s |%11s |%12s |%11s |",
+                this.name,
+                this.age,
+                this.weigh,
+                this.gender
+        );
+        System.out.println();
+        System.out.println("+------------+------------+-------------+------------+");
+
+    }
 }
